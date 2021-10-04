@@ -26,7 +26,7 @@ public class Main {
 //---------------remove um dado---------------//
 //        cursoDAO.delete(4);
 
-//--------------atualiza um dado--------------//
+//--------------atualiza um dado---------------//
         Curso cursoParaAtualizar = cursoDAO.getById(2);
         cursoParaAtualizar.setNome("C#");
         cursoParaAtualizar.setDuracaoHoras(25.5F);

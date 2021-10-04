@@ -124,5 +124,5 @@ public class CursoDAO {
             System.out.println("Atualização dos dados FALHOU!");
             e.printStackTrace();
         }
-    }
+    } 
 }
